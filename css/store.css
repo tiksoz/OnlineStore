@@ -43,6 +43,30 @@ header nav a:hover {
 .input-header {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+/* member and icon  */
+.member-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.member-item {
+  display: flex;
+  align-items: center;
+  height: 18px;
+  margin-top: 35px;
+    text-decoration: none;
+  color: black;
+}
+
+.member-item img {
+  height: 30px;
+  width: 18px;
+  gap: 10px;
+  cursor: pointer;
 }
 
 /* Right side menu */
@@ -155,7 +179,7 @@ header nav a:hover {
 /* Search area */
 .search-box {
   position: relative;
-  width: 350px;
+  width: 450px;
   margin: 30px;
 }
 .search-btn {
@@ -168,8 +192,13 @@ header nav a:hover {
   cursor:pointer;
   transform: translateY(-50%);
 }
+
+.search-btn img {
+  height: 35px;
+  width: 35px;
+}
 .search-box input{
-  height: 25px;
+  height: 40px;
   border-radius: 6px;
   width: 100%;
   padding: 8px 40px 8px 12px;
