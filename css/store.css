@@ -58,15 +58,25 @@ header nav a:hover {
   align-items: center;
   height: 18px;
   margin-top: 35px;
-    text-decoration: none;
+  text-decoration: none;
   color: black;
 }
 
 .member-item img {
-  height: 30px;
-  width: 18px;
-  gap: 10px;
+  max-width: 30px; 
+  max-height: 30px;
+  gap: 20px;
   cursor: pointer;
+}
+
+.member-item img-wide {
+  height: 30px;
+  width: auto;
+}
+
+.member-item img-wide {
+  height: auto;
+  width: 30px;
 }
 
 /* Right side menu */
@@ -84,7 +94,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* ---- ABOUT CONTENT ---- */
+/* ---- ABOUT-US CONTENT ---- */
 .section-box {
   display: flex;
   align-items: center;
@@ -111,6 +121,7 @@ header nav a:hover {
   line-height: 1.6;
   padding: 30px;
 }
+
 
 /* ---- Principles Cards ---- */
 .cards-container {
@@ -194,8 +205,8 @@ header nav a:hover {
 }
 
 .search-btn img {
-  height: 35px;
-  width: 35px;
+  height: 32px;
+  width: 32px;
 }
 .search-box input{
   height: 40px;
