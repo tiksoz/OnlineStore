@@ -10,11 +10,77 @@ header {
   margin-top: 3px;
 }
 
+.navs {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+/* about-us.html (3. picture setting)*/
+.cards :hover {
+  position: relative;
+  top: -5px;
+  transition: 1s;
+}
+
 /* log.html  */
 .main form a{
   color: #ff9900;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* index.html */
+.section-category a{
+  text-decoration: none;
+  color: rgb(117, 133, 133);
+}
+
+.section-category a:hover{
+  color: black;
+}
+
+.section-category ul{
+  display: flex;
+  list-style: none;
+} 
+
+/* index.html */
+.section-product a {
+  text-decoration: none;
+  color:black;
+}
+
+.section-product .card1{
+  position: relative;
+}
+
+.section-product .card1 img{
+  aspect-ratio: 1/1;
+  object-fit: cover; 
+  width: 100%;
+}
+
+.section-product .buttons{
+  position: absolute;
+  right: 1px;
+  top: 3px;
+  border: none;
+}
+
+.section-product .buttons img{
+  border-radius: 100px;
+  width : 35px ;
+  height: 29px;
+}
+
+.section-product .button2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9900;
+  color: aliceblue;
+  width: 150px;
+  margin: auto;
 }
 
 
